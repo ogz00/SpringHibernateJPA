@@ -1,0 +1,15 @@
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/controllers/UserController.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/dao/IUserDAO.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/impl/User.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/impl/Answer.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/ITestExam.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/service/impl/UserServiceImpl.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/IAnswer.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/service/IUserService.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/IAnsweredQuestion.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/impl/TestExam.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/IUser.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/IQuestion.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/dao/impl/UserDAOImpl.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/impl/AnsweredQuestion.java
+/home/oguzhan/workspaces/general/workspace/OnlineTestingPlatform/src/org/oguz/platform/business/model/impl/Question.java

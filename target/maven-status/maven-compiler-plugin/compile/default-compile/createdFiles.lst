@@ -1,0 +1,15 @@
+org/oguz/platform/business/model/IUser.class
+org/oguz/platform/controllers/UserController.class
+org/oguz/platform/business/model/impl/User.class
+org/oguz/platform/business/service/IUserService.class
+org/oguz/platform/business/model/impl/Answer.class
+org/oguz/platform/business/dao/IUserDAO.class
+org/oguz/platform/business/dao/impl/UserDAOImpl.class
+org/oguz/platform/business/service/impl/UserServiceImpl.class
+org/oguz/platform/business/model/impl/AnsweredQuestion.class
+org/oguz/platform/business/model/impl/Question.class
+org/oguz/platform/business/model/IQuestion.class
+org/oguz/platform/business/model/IAnswer.class
+org/oguz/platform/business/model/impl/TestExam.class
+org/oguz/platform/business/model/ITestExam.class
+org/oguz/platform/business/model/IAnsweredQuestion.class

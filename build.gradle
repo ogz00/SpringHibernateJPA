@@ -1,0 +1,68 @@
+buildscript {
+    ext {
+        springBootVersion = '1.2.3.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+        classpath "io.spring.gradle:dependency-management-plugin:0.5.0.RELEASE"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply plugin: 'io.spring.dependency-management'
+
+jar {
+    baseName = 'online-testing-platform'
+    version = '0.0.1-SNAPSHOT'
+}
+
+group = 'com.crossover.trialtest'
+version = '0.0.1-SNAPSHOT'
+description = 'Online Testing Platform'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}"
+    compile "org.springframework.boot:spring-boot-starter-hateoas:${springBootVersion}"
+    compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+    compile "org.springframework.cloud:spring-cloud-starter-oauth2:1.0.1.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter-security"
+
+
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-joda:2.4.0'
+    compile 'joda-time:joda-time:2.7'
+    compile 'joda-time:joda-time-hibernate:1.3'
+    compile 'org.jadira.usertype:usertype.core:3.2.0.GA'
+    compile 'com.jayway.jsonpath:json-path:0.9.1'
+
+    runtime 'com.h2database:h2:1.4.185'
+    runtime 'mysql:mysql-connector-java:5.1.34'
+    
+    testCompile "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+    testCompile 'org.assertj:assertj-core:2.0.0'
+    testCompile 'org.assertj:assertj-joda-time:1.1.0'
+    testCompile 'com.jayway.jsonpath:json-path-assert:0.5.5'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-starter-parent:1.0.1.RELEASE"
+	}
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
